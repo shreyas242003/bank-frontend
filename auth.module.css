@@ -1,0 +1,24 @@
+/* MyComponent.module.css */
+
+.lgInnerColumn {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  overflow-y: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.leftColumn {
+  background-color: #f0f4f8; /* Replace with your color classes */
+  color: #718096; /* Replace with your color classes */
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.leftColumn h4 {
+  font-size: 40px;
+  line-height: 48px;
+  color: #718096; /* Replace with your color classes */
+}
